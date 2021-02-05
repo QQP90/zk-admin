@@ -1,0 +1,43 @@
+.custom-page-view {
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+}
+.custom-page-view .content {
+  display: flex;
+}
+.custom-page-view .content .tree {
+  width: 15%;
+}
+.custom-page-view .content .content-r {
+  width: 85%;
+}
+.custom-page-view .custom-page-view-search {
+  padding: 0px 12px;
+  background-color: #fff;
+}
+.custom-page-view .custom-page-view-search > * {
+  margin-right: 5px;
+}
+.custom-page-view .custom-page-view-table {
+  padding-left: 15px;
+}
+.custom-page-view .custom-page-view-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f0f2f5;
+  padding: 5px;
+}
+.custom-page-view .custom-page-view-footer .ant-btn {
+  margin: 0px 5px 0 0;
+}
+.custom-page-view .custom-page-view-full {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  background-color: #fff;
+}
